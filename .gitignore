@@ -1,0 +1,6 @@
+*.swp
+.bundle
+*.lock
+node_modules
+.sass-cache
+tmp
