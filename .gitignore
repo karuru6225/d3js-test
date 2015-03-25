@@ -1,6 +1,10 @@
 *.swp
-.bundle
+.*.swp
+/.sass-cache
+.DS_Store
+.bundle/
+.sass-cache/
 *.lock
+tmp/
 node_modules
-.sass-cache
-tmp
+~*.xlsm

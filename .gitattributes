@@ -1,0 +1,14 @@
+.gitattributes export-ignore
+.gitignore export-ignore
+scss export-ignore
+.bundle export-ignore
+.sass-cache export-ignore
+*.lock export-ignore
+tmp export-ignore
+node_modules export-ignore
+buildenv.sh export-ignore
+dev.sh export-ignore
+Gemfile export-ignore
+Gruntfile.js export-ignore
+glupfile.js export-ignore
+package.json export-ignore

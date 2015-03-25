@@ -1,25 +1,15 @@
 {
-  "name": "AppPot_web",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/NCDCHub/AppPot_web.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NCDCHub/AppPot_web/issues"
-  },
-  "homepage": "https://github.com/NCDCHub/AppPot_web",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-connect": "^0.8.0",
-    "grunt-contrib-sass": "^0.8.1",
-    "grunt-contrib-watch": "^0.6.1"
+    "gulp": "^3.8.11",
+    "gulp-connect": "^2.2.0",
+    "gulp-plumber": "^0.6.6",
+    "gulp-sass": "^1.3.3"
   }
 }
