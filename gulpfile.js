@@ -5,7 +5,7 @@ var plumber = require('gulp-plumber');
 
 gulp.task("server", function(){
 	connect.server({
-		root: [__dirname+'/pub'],
+		root: [__dirname + '/pub'],
 		port: 8000,
 		livereload: true
 	});
