@@ -16,9 +16,12 @@
   },
   "homepage": "https://github.com/karuru6225/web_template",
   "devDependencies": {
-    "gulp": "*",
-    "gulp-connect": "*",
-    "gulp-plumber": "*",
-    "gulp-sass": "*"
+    "gulp": "^3.8.11",
+    "gulp-connect": "^2.2.0",
+    "gulp-plumber": "^0.6.6",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.4.2"
   }
 }
