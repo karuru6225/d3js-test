@@ -1,5 +1,5 @@
 {
-  "name": "web_template",
+  "name": "d3js-test",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -7,17 +7,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/karuru6225/web_template.git"
+    "url": "https://github.com/karuru6225/d3js-test.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/karuru6225/web_template/issues"
+    "url": "https://github.com/karuru6225/d3js-test/issues"
   },
-  "homepage": "https://github.com/karuru6225/web_template",
+  "homepage": "https://github.com/karuru6225/d3js-test",
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-connect": "^2.2.0",
+    "gulp-notify": "^2.2.0",
     "gulp-plumber": "^0.6.6",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.0.4",

@@ -5,6 +5,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var plumber = require('gulp-plumber');
+var notify = require('gulp-notify');
 
 gulp.task('server', function(){
 	connect.server({
@@ -21,7 +22,7 @@ gulp.task('reload', function(){
 
 gulp.task('sass', function(){
 	gulp.src('./scss/*.scss')
-		.pipe(plumber())
+		.pipe(plumber({errorHandler: notify.onError('<%= error.message %>')}))
 		//.pipe(sourcemaps.init())
 		.pipe(sass({outputStyle:'compressed'}))
 		//.pipe(sourcemaps.write('./maps'))
@@ -31,7 +32,7 @@ gulp.task('sass', function(){
 
 gulp.task('uglify', function(){
 	gulp.src(['./pub/js/**/*.js','!./pub/js/min/**/*.js','!./pub/js/vendor/**/*.js'])
-		.pipe(plumber())
+		.pipe(plumber({errorHandler: notify.onError('<%= error.message %>')}))
 		.pipe(sourcemaps.init())
 		.pipe(uglify())
 		.pipe(rename({extname:'.min.js'}))
